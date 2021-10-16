@@ -1,0 +1,27 @@
+/* Moblie */
+
+@media (max-width: 739px) {}
+
+
+/* Moblie & Tablet */
+
+@media (max-width: 1039px) {
+    .header-nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .header__list {
+        display: none;
+    }
+    .header__logo {
+        margin: 0;
+    }
+    .header__menu-img {
+        margin-bottom: 12px;
+    }
+}
+
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 1039) {}
